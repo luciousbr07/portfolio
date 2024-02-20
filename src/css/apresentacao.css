@@ -1,0 +1,132 @@
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.area-apresentacao{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.area-apresentacao .titulo{
+ 
+   width: 600px;
+
+   margin-bottom: 150px;
+}
+
+.titulo h2{
+    font-size: 55px;
+    font-weight: 900;
+}
+.titulo h2 .nome{
+    color: rgb(54, 54, 228);
+    
+}
+
+.botoes{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+p button{
+    margin-top: 50px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    background-color: rgb(54, 54, 228);
+    border-radius: 10px;
+}
+
+.curriculo{
+    background: none;
+    border: 1px solid white;
+}
+
+p button a{
+    color: white;
+    font-size: 20px;
+}
+
+.codigo{
+    width: 700px;
+    height: 400px;
+    background-color: rgba(71, 71, 71, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid white;
+    font-size: 18px;
+    line-height: 30px;
+    transition: 0.2;
+}
+
+
+.codigo .cabecalho{
+    padding-bottom: 5px;
+    border-bottom: 2px solid gray;
+}
+.codigo .cabecalho i{
+    margin-right: 10px;
+}
+
+.codigo .codigos-ordenados{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.codigo:hover{
+    background-color:  rgb(12, 19, 35);
+}
+
+.codigo .codigos-ordenados .tag{
+    color: #BB246A;
+}
+.codigo .codigos-ordenados .classe{
+    color: #2BA67F;
+}
+.codigo .codigos-ordenados .atributo{
+    color: #D5C379;
+}
+
+.codigo .codigos-ordenados .alter{
+    margin-left: 20px;
+}
+
+.info-adicionais{
+    width: 350px;
+    height: 290px;
+    position: relative;
+    top: -30%;
+    left: 70%;
+    background-color:  rgb(12, 19, 35);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+
+.info-adicionais .try{
+    color: #BB246A;
+    font-size: 18px;
+}
+
+.info-adicionais .breve-apresentacao{
+    margin-left: 30px;
+}
+
+.info-adicionais .breve-apresentacao .nome{
+   color: #54BFFD;
+   font-size: 18px;
+}
+
+
+

@@ -1,0 +1,76 @@
+.sobre-mim{
+    margin-top: 80px;
+    height: 400px;
+}
+.sobre-mim .area-sobre{
+    display: flex;
+    gap: 50px;
+}
+
+.area-sobre .foto{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.area-sobre .foto:hover{
+    background-color: rgba(71, 71, 71, 0.1);
+}
+
+.cabecalho-sobre{
+    padding-bottom: 5px;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    
+}
+
+.red{
+    color: #DB2777;
+}
+.yellow{
+    color: #FDE68A;
+}
+.green{
+    color: #34D399;
+}
+
+.foto p{
+    width: 100%;
+    margin-left: 40px;
+}
+
+p span{
+    color: #54BFFD;
+}
+
+.foto img{
+    margin-top: 20px;
+    width: 170px;
+    margin-left: 100px;
+}
+
+.img{
+    margin-top: 20px;
+}
+
+.sobre h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.sobre h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.sobre p{
+    width: 80%;
+    font-size: 18px;
+    line-height: 27px;
+}

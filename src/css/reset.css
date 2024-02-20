@@ -1,0 +1,17 @@
+*{
+    margin: 0; /*espacamento entre os elementos*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none; /* tira as bolinhas de marcacao da lista tag <ul>*/
+}
+
+a{
+    text-decoration: none; /* tira a cor azul dos links da tag <a> */
+}
+
+html{
+    scroll-behavior: smooth;
+}

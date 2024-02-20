@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto';
+    background-color: #0C1323;
+    color: white;
+}
+
+header{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto ;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 300px;  
+}
+.logo span{
+
+    font-size: 30px;
+    font-weight: 700;
+ 
+}
+
+nav{
+    margin-top: 20px;
+    
+  
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nome{
+    color: rgb(54, 54, 228);
+}
+

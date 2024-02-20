@@ -1,0 +1,62 @@
+.icons-projetos{
+    color: white;
+    font-size: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.icons-projetos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+
+.icons-projetos .mensagem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    opacity: 0; /* Inicialmente, a mensagem está invisível */
+    transition: opacity 0.3s; /* Adiciona uma transição suave na opacidade */
+}
+
+.icons-projetos img:hover{
+   opacity: 0.2;
+}
+
+.icons-projetos:hover .mensagem {
+    opacity: 1; /* Torna a mensagem visível ao passar o mouse sobre a div */
+}
+
+
+
+
+.projetos{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.projetos h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.projetos div{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}

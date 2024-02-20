@@ -1,0 +1,18 @@
+footer{
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+footer p{
+    font-size: 22px;
+}
+
+footer .icons-contato i{
+    margin-left: 20px;
+}

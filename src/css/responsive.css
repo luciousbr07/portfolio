@@ -1,0 +1,24 @@
+@media (max-width: 1440px) {
+    header{
+        margin: 0 20px;
+    }
+    main{
+        margin: 0 20px;
+    }
+    .codigo{
+        width: 500px;
+    }
+    .info-adicionais{
+        width: 350px;
+        left: 60%;
+        top: -35px;
+    }
+}
+
+@media (max-width: 420px){
+    header{
+        flex-direction: column;
+    }
+
+    
+}

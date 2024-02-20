@@ -1,0 +1,38 @@
+.icons-habilidades{
+    color: white;
+    font-size: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+.icons-habilidades:hover{
+    color: rgb(255, 255, 255, 0.5);
+    border-color:  rgb(255, 255, 255, 0.5);
+}
+
+.habilidades{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.habilidades h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.habilidades div{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
