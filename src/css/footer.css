@@ -8,10 +8,7 @@ footer{
     gap: 10px;
 }
 
-footer p{
-    font-size: 22px;
-}
-
-footer .icons-contato i{
+footer .icons-contato a{
     margin-left: 20px;
+    color: white;
 }

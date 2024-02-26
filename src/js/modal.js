@@ -35,12 +35,15 @@ projetos.forEach((item, i) =>{
         }
         else if(item.id == "proj3"){
             modal.children[1].innerHTML = "<img src='./src/imgs/proj3.png'>"
+            titulo.innerHTML = "Quest - Market Page"
         }
         else if(item.id == "proj4"){
             modal.children[1].innerHTML = "<img src='./src/imgs/proj4.png'>"
+            titulo.innerHTML = "Quest - Validacao de formulário"
         }
         else if(item.id == "proj5"){
             modal.children[1].innerHTML = "<img src='./src/imgs/proj5.png'>"
+            titulo.innerHTML = "Acordeon FAQ"
         }
     })
 
