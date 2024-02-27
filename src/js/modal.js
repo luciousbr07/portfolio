@@ -40,10 +40,14 @@ projetos.forEach((item, i) =>{
         else if(item.id == "proj4"){
             modal.children[1].innerHTML = "<img src='./src/imgs/proj4.png'>"
             titulo.innerHTML = "Quest - Validacao de formulário"
+            paragrafoDescricao.innerHTML = "Projeto realizado para treinar habilidades de Javascript, voltadas para validação de formulários, com o uso de eventos e funções. O que torna a compreensão do formulário mais simples, a fim de evitar erros e dificuldades."
+            tecnologiasDescricao.innerHTML = "HTML, CSS, Javascript"
+            repositorio.href = "https://github.com/luciousbr07/questHtmlCssJs"
         }
         else if(item.id == "proj5"){
             modal.children[1].innerHTML = "<img src='./src/imgs/proj5.png'>"
-            titulo.innerHTML = "Acordeon FAQ"
+            titulo.innerHTML = "Acccordion FAQ"
+            paragrafoDescricao.innerHTML = "Projeto realizado para treinar habilidades de Javascript."
         }
     })
 
