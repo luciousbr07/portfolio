@@ -63,6 +63,11 @@ body.fixed{
     margin-bottom: 10px;
 }
 
-.repositorio{
+.repositorio, .git-pages{
     font-size: 40px;
 }
+
+.git-pages.remove{
+    visibility: hidden;
+}
+
