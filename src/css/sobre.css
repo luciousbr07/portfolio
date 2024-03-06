@@ -18,6 +18,10 @@
     transition: 0.2s;
 }
 
+.area-sobre.alter .foto{
+    border-color: gray;
+}
+
 .area-sobre .foto:hover{
     background-color: rgba(71, 71, 71, 0.1);
 }

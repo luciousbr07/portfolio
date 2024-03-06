@@ -12,9 +12,18 @@
     cursor: pointer;
 }
 
+.icons-habilidades.alter{
+    color: gray;
+    border-color: gray;
+}
+
 .icons-habilidades:hover{
     color: rgb(255, 255, 255, 0.5);
     border-color:  rgb(255, 255, 255, 0.5);
+}
+.icons-habilidades.alter:hover{
+    color: rgb(128, 128, 128, 0.5);
+    border-color:  rgb(128, 128, 128, 0.5);
 }
 
 .habilidades{

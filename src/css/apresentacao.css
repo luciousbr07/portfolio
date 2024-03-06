@@ -50,6 +50,13 @@ p button{
     border: 1px solid white;
 }
 
+.curriculo.alter{
+    border-color: gray;
+}
+.curriculo.alter a{
+    color: gray;
+}
+
 p button a{
     color: white;
     font-size: 20px;
@@ -86,6 +93,15 @@ p button a{
     background-color:  rgb(12, 19, 35);
 }
 
+.codigo.alter{
+    border-color: gray;
+    background-color:  rgba(203, 203, 207, 0.233);
+}
+
+.codigo.alter:hover{
+    background-color: rgb(242, 245, 247, 0.);
+}
+
 .codigo .codigos-ordenados .tag{
     color: #BB246A;
 }
@@ -111,6 +127,11 @@ p button a{
     padding: 20px;
     border: 1px solid white;
     font-size: 16px;
+}
+
+.info-adicionais.alter{
+    background-color: #F2F5F7;
+    border-color: gray;
 }
 
 

@@ -14,6 +14,10 @@ body.fixed{
     justify-content: center;
     gap: 0;
     visibility: hidden;
+    border-radius: 10px;
+}
+.modal.alter{
+    background-color:  #dcdcdc;
 }
 
 .fechar-modal{
@@ -67,7 +71,9 @@ body.fixed{
     font-size: 40px;
 }
 
-.git-pages.remove{
-    visibility: hidden;
+p.alter .repositorio, .git-pages{
+    color: gray;
 }
+
+
 

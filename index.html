@@ -26,12 +26,12 @@
             <img src="" alt="">
             <span>&#60Lúcio <span class="nome">Guerra</span>/></span>
         </div>
-        <nav>
+        <nav class="alter">
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+                <li id="theme" class="dark"><a href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -43,11 +43,11 @@
                     <h2>Olá, eu sou o <span class="nome">{Lúcio}</span>. Um desenvolvedor Front-end | Back-end</h2>
                     <p class="botoes">
                         <button class="linkedin"><a href="https://www.linkedin.com/in/lúcio-guerra-b58989233/" target="_blank"><i class="fa-brands fa-linkedin"></i>   Linkedin</a></button>
-                        <button class="curriculo"><a href="./src/curriculo.pdf" download="curriculo.pdf"><i class="fa-solid fa-cloud-arrow-down"></i>   Curriculo</a></button>
+                        <button class="curriculo alter"><a href="./src/curriculo.pdf" download="curriculo.pdf"><i class="fa-solid fa-cloud-arrow-down"></i>   Curriculo</a></button>
                     </p>
                 </div>
 
-                <div class="codigo">
+                <div class="codigo alter">
                    
                         <div class="cabecalho"> 
                             <i class="fa-solid fa-circle"></i>
@@ -75,7 +75,7 @@
                         </div>
                   
 
-                        <div class="info-adicionais" id="sobre">
+                        <div class="info-adicionais alter" id="sobre">
                             <p><span class="try">try</span> &#123</p>
                             <p class="breve-apresentacao">// Olá, seja bem-vindo ao meu site. Eu me chamo <span class="nome">Lúcio Guerra</span> e sou desenvolvedor <span class="nome">front-end</span> e <span class="nome">back-end</span>. Atualmente estou cursando <span class="nome">Análise e Desenvolvimento de Sistemas</span>, junto a diversas outras habilidades adiquiridas pelo caminho.</p>
                         </div>
@@ -85,7 +85,7 @@
         </section>
 
         <section class="sobre-mim" >
-            <div class="area-sobre">
+            <div class="area-sobre alter">
 
                 <div class="foto" >
                     <div class="cabecalho-sobre"> 
@@ -107,7 +107,7 @@
                     <p>Olá, eu me chamo Lúcio Guerra e sou apaixonado por tecnologia desde os meus 13 anos de idade, quando tive meu primeiro contato com as linguagens de marcação "HTML" e "CSS". Depois de um tempo, comecei a estudar a linguagem de programação "PHP". Desde então, decidi trilhar o caminho da programação e aprender mais sobre este maravilhoso mundo.</p>
                     <p class="botoes">
                         <button class="linkedin"><a href="https://www.linkedin.com/in/lúcio-guerra-b58989233/" target="_blank"><i class="fa-brands fa-linkedin"></i>   Linkedin</a></button>
-                        <button class="curriculo"><a href="./src/curriculo.pdf" download="curriculo.pdf"><i class="fa-solid fa-cloud-arrow-down"></i>   Curriculo</a></button>
+                        <button class="curriculo alter"><a href="./src/curriculo.pdf" download="curriculo.pdf"><i class="fa-solid fa-cloud-arrow-down"></i>   Curriculo</a></button>
                     </p>
                 </div>
             </div>
@@ -116,12 +116,12 @@
         <section class="habilidades">
             <h2>HABILIDADES</h2>
             <div>
-                <div class="icons-habilidades"><i class="fa-brands fa-html5"></i></div>
-                <div class="icons-habilidades"><i class="fa-brands fa-css3-alt"></i></div>
-                <div class="icons-habilidades"><i class="fa-brands fa-js"></i></div>
-                <div class="icons-habilidades"><i class="fa-brands fa-php"></i></div>
-                <div class="icons-habilidades"><i class="fa-solid fa-database"></i></div>
-                <div class="icons-habilidades"><i class="fa-brands fa-github"></i></div>
+                <div class="icons-habilidades alter"><i class="fa-brands fa-html5"></i></div>
+                <div class="icons-habilidades alter"><i class="fa-brands fa-css3-alt"></i></div>
+                <div class="icons-habilidades alter"><i class="fa-brands fa-js"></i></div>
+                <div class="icons-habilidades alter"><i class="fa-brands fa-php"></i></div>
+                <div class="icons-habilidades alter"><i class="fa-solid fa-database"></i></div>
+                <div class="icons-habilidades alter"><i class="fa-brands fa-github"></i></div>
             </div>
         </section>
 
@@ -154,14 +154,14 @@
             </div>
         </section>
 
-        <div class="modal">
+        <div class="modal alter">
                 <div class="fechar-modal"><i class="fa-solid fa-x"></i></div>
                 <div class="img-projeto"><img src="./src/imgs/proj1.png" alt="img-projeto"></div>
                 <div class="descricao">
                     <h2 class="titulo-descricao"></h2>
                     <p class="paragrafo-descricao"></p>
                     <p class="tecnologias-descricao"></p>
-                    <p>
+                    <p class="alter">
                         <a href="" class="repositorio" target="_blank"><i class="fa-brands fa-github"></i></a>  
                         <a href="" class="git-pages" target="_blank"><i class="fa-solid fa-cloud"></i></a>
                     </p>
@@ -173,7 +173,7 @@
 
 
         <footer>
-            <div class="icons-contato">
+            <div class="icons-contato alter">
                 <a href="https://linkedin.com/in/lúcio-guerra-b58989233" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/luciousbr07" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://wa.me/5519992355091" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
@@ -187,5 +187,6 @@
 
     <script src="https://kit.fontawesome.com/6c9ae78c56.js" crossorigin="anonymous"></script>
     <script src="./src/js/modal.js"></script>
+    <script src="./src/js/theme.js"></script>
 </body>
 </html>

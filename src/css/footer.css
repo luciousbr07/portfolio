@@ -12,3 +12,7 @@ footer .icons-contato a{
     margin-left: 20px;
     color: white;
 }
+
+footer .icons-contato.alter a{
+    color: gray;
+}

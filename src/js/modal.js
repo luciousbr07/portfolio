@@ -27,7 +27,7 @@ projetos.forEach((item, i) =>{
             paragrafoDescricao.innerHTML = "Tcc realizado para conclusao de curso técnico em Informatica para Internet na Etec. Projeto voltado para o auxílio na logística dos catadores de materiais recicláveis, no modelo de delivery. É um site onde o morador tem acesso a dicas de separacao de materiais reciclaveis e principalmente o o pedido de coleta em sua residencia, indicando os materiais que possui, horário de disponibilidade e endereco salvo em seu cadastro. Na área do catador ele vai receber o pedido, com todas as informacoes necessárias, podendo aceitar ou recusar. No momento em que é aceito a coleta passa a ser dele e o morador já é avisado que a coleta foi aceita. Ao realizar a coleta o catador marca como entregue e é fechada a coleta, sendo o morador novamente avisado. Projeto totalmente automatizado e ligado ao banco de dados, desde a área de Administrador, os banner e dicas de separacao e o cadastro de casa usuário, podendo ser categorizado como cliente ou catador."
             tecnologiasDescricao.innerHTML = "HTML, CSS, PHP, Javascript,  Bootstrap, MySQL, Padrão MVC (orientado a objetos)"
             repositorio.href = "https://github.com/luciousbr07/tcc-recicleja"
-            console.log(gitPages.parentElement)
+            gitPages.href = "https://github.com/luciousbr07/tcc-recicleja"
 
         }
         else if(item.id == "proj2"){
