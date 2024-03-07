@@ -71,7 +71,10 @@ body.fixed{
     font-size: 40px;
 }
 
-p.alter .repositorio, .git-pages{
+p .repositorio, p .git-pages{
+    color: white;
+}
+p.alter .repositorio, p.alter .git-pages{
     color: gray;
 }
 

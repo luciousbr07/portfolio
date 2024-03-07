@@ -1,15 +1,45 @@
 let themeIcon = document.getElementById("theme")
+let nav = document.getElementsByTagName("nav")
+let codigo = document.querySelector(".codigo")
+let info = document.querySelector(".info-adicionais")
+let curriculo = document.querySelectorAll(".curriculo")
+let habilidades = document.querySelector(".habilidades")
+let contato = document.querySelector(".icons-contato")
+let areaSobre = document.querySelector(".area-sobre")
+let git = document.getElementById("git")
+let projetosMensagem = document.querySelector(".projetos")
 
 
 themeIcon.addEventListener('click' , ()=>{
     if(themeIcon.classList == "dark"){
         themeIcon.classList.replace("dark", "white")
         body.classList.add("alter")
+        nav[0].classList.add("alter")
+        codigo.classList.add("alter")
+        info.classList.add("alter")
+        curriculo[0].classList.add("alter")
+        curriculo[1].classList.add("alter")
+        habilidades.classList.add("alter")  
+        contato.classList.add("alter") 
+        areaSobre.classList.add("alter") 
+        projetosMensagem.classList.add("alter")
+        git.classList.add("alter")
+        modal.classList.add("alter") 
        
     }
     else{
         themeIcon.classList.replace("white", "dark")
         body.classList.remove("alter") 
-      
+        nav[0].classList.remove("alter")
+        codigo.classList.remove("alter")
+        info.classList.remove("alter")
+        curriculo[0].classList.remove("alter")
+        curriculo[1].classList.remove("alter")
+        habilidades.classList.remove("alter")
+        contato.classList.remove("alter") 
+        areaSobre.classList.remove("alter")  
+        git.classList.remove("alter")
+        modal.classList.remove("alter") 
+        projetosMensagem.classList.remove("alter")
     }
 })

@@ -30,6 +30,10 @@
     transition: opacity 0.3s; /* Adiciona uma transição suave na opacidade */
 }
 
+.projetos.alter div .icons-projetos .mensagem{
+    color: gray;
+}
+
 .icons-projetos img:hover{
    opacity: 0.2;
 }

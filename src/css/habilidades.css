@@ -12,7 +12,7 @@
     cursor: pointer;
 }
 
-.icons-habilidades.alter{
+.habilidades.alter div .icons-habilidades{
     color: gray;
     border-color: gray;
 }
