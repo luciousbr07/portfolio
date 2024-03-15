@@ -20,7 +20,7 @@ let bkp = document.querySelector(".git-pages")
 projetos.forEach((item, i) =>{
     item.addEventListener('click' , function(){
         modal.classList.add("aberto")
-        body.classList.add('fixed')
+        //body.classList.add('fixed')
         if(item.id == "proj1"){
             modal.children[1].innerHTML = "<img src='./src/imgs/proj1.png'>"
             titulo.innerHTML = "TCC - RecicleJá"
@@ -64,7 +64,7 @@ projetos.forEach((item, i) =>{
 
     fecharModal.addEventListener('click' , function(){
         modal.classList.remove("aberto")
-        body.classList.remove('fixed')
+        //body.classList.remove('fixed')
     })
 
 })
