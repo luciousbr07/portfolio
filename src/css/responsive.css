@@ -16,9 +16,77 @@
 }
 
 @media (max-width: 420px){
+
+    /*header*/
     header{
         flex-direction: column;
     }
+    nav ul li a{  
+        font-size: 14px;
+    }
 
+    /*apresentacao.css*/
+    main{
+        max-width: 420px;
+    }
+
+    .area-apresentacao{
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .titulo h2{
+        font-size: 48px;
+    }
+
+    .info-adicionais{
+        visibility: hidden;
+    }
+
+    .area-apresentacao .titulo{
+        margin-bottom: 10px;
+    }
+
+    .codigo{
+        width: 330px;
+        font-size: 16px;
+    }
+
+
+    /*sobre.css*/
+
+    .sobre-mim{
+        margin-top: 250px;
+    }
     
+    .sobre-mim .area-sobre{
+        flex-wrap:wrap-reverse;
+    }
+
+    .area-sobre .foto{
+        width: 300px;   
+    }
+
+    .foto img{
+        margin-left: 60px;
+    }
+
+    .sobre h2{
+        text-align: center;
+    }
+    
+    .sobre h3{
+        text-align: center;
+    }
+    
+    .sobre p{
+        width: 100%;
+        text-align: center;
+    }
+    
+
+    /*habilidades.css*/
+    .habilidades{
+        margin-top: 600px;
+    }
 }

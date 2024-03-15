@@ -9,14 +9,11 @@ main{
     display: flex;
     flex-direction: row;
     gap: 50px;
-    display: flex;
     align-items: center;
 }
 
 .area-apresentacao .titulo{
- 
    width: 600px;
-
    margin-bottom: 150px;
 }
 
@@ -26,7 +23,6 @@ main{
 }
 .titulo h2 .nome{
     color: rgb(54, 54, 228);
-    
 }
 
 .botoes{
