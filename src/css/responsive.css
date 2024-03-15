@@ -16,7 +16,6 @@
 }
 
 @media (max-width: 420px){
-
     /*header*/
     header{
         flex-direction: column;
@@ -74,7 +73,8 @@
     }
 
     .area-sobre .foto{
-        width: 300px;   
+        width: 300px;
+        margin-left: 10px;   
     }
 
     .foto img{
@@ -97,6 +97,18 @@
 
     /*habilidades.css*/
     .habilidades{
-        margin-top: 600px;
+        margin-top: 540px;
+    }
+
+    /*projetos.css*/
+    .projetos{
+        margin-top: 60px;
+    }
+
+    /*footer.css*/
+    footer{
+        margin-top: 40px;
+        justify-content: center;
+        margin-bottom: 30px;
     }
 }
