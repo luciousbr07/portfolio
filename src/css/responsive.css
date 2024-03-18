@@ -16,6 +16,9 @@
 }
 
 @media (max-width: 420px){
+    body{
+        touch-action: pan-y;
+    }
     /*header*/
     header{
         flex-direction: column;
