@@ -1,11 +1,3 @@
-// abrir modal
-// - pegar todos os elementos projetos
-// - add um evento em cada
-
-// fechar modal
-
-//            console.log(item.children)
-
 const projetos = document.querySelectorAll(".icons-projetos")
 const modal = document.querySelector(".modal")
 const fecharModal = document.querySelector(".fechar-modal")
